@@ -114,7 +114,7 @@ public class PrimaryController {
         drawingContainer.getChildren().clear();
 
         Random random = new Random();
-        forma.repintar(colors[random.nextInt(colors.length - 1)]);
+        forma.repitar(colors[random.nextInt(colors.length - 1)]);
         drawingContainer.getChildren().add(forma.toShape());
     }
 
